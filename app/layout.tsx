@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://aws-quiz-app-psi.vercel.app",
+    url: "https://aws-quiz-app-psi.vercel.app/og-image.jpg",
     title: "AWS Cloud Practitioner Quiz - Practice Exams CLF-C02",
     description:
       "Practice for AWS Certified Cloud Practitioner exam with 23 interactive tests. 50 questions each, 50-minute timer. Free online quiz tool.",
