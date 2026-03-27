@@ -23,7 +23,7 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aws-quiz-app.vercel.app"),
+  metadataBase: new URL("https://aws-quiz-app-psi.vercel.app"),
   title: {
     default: "AWS Cloud Practitioner Quiz - Practice Exams CLF-C02",
     template: "%s | AWS Quiz App",
@@ -61,14 +61,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://aws-quiz-app.vercel.app",
+    url: "https://aws-quiz-app-psi.vercel.app",
     title: "AWS Cloud Practitioner Quiz - Practice Exams CLF-C02",
     description:
       "Practice for AWS Certified Cloud Practitioner exam with 23 interactive tests. 50 questions each, 50-minute timer. Free online quiz tool.",
     siteName: "AWS Quiz App",
     images: [
       {
-        url: "https://aws-quiz-app.vercel.app/og-image.jpg",
+        url: "aws-quiz-app-psi.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "AWS Cloud Practitioner Quiz - Practice Exams",
@@ -80,11 +80,11 @@ export const metadata: Metadata = {
     title: "AWS Cloud Practitioner Quiz - Practice Exams CLF-C02",
     description:
       "Practice for AWS Certified Cloud Practitioner exam with 23 interactive tests. 50 questions each with 50-minute timer.",
-    images: ["https://aws-quiz-app.vercel.app/og-image.jpg"],
+    images: ["https://aws-quiz-app-psi.vercel.app/og-image.jpg"],
     creator: "@awsquizapp",
   },
   alternates: {
-    canonical: "https://aws-quiz-app.vercel.app",
+    canonical: "https://aws-quiz-app-psi.vercel.app",
   },
   verification: {
     google: "your-google-verification-code",
