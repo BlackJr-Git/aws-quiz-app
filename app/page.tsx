@@ -37,6 +37,18 @@ export default function Page() {
               <span>50 questions each</span>
             </div>
           </div>
+          <div className="mt-6">
+            <Link href="/study">
+              <Button
+                variant="outline"
+                size="lg"
+                className="transition-all hover:scale-105"
+              >
+                <BookOpen className="mr-2 h-4 w-4" />
+                Study Guide & Notes
+              </Button>
+            </Link>
+          </div>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
